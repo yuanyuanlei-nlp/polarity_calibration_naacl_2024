@@ -25,19 +25,46 @@ We evaluate our approach using two datasets, each focusing on different types of
 
 
 
-
 <br/>
 
 ## Model Generated Summaries
 
+We release the generated summaries from different models:
 
+* **generated_summary_AmaSum**: the generated summaries on AmaSum dataset
+  * _test_file_names:_ the list of test file names, the model generated summaries are listed in the same order as this list
+  * _base_summarizer_flan_t5_large:_ the generated summaries from our base summarizer
+  * _calibrated_summarizer_PoCa:_ the generated summaries from our calibrated summarizer after polarity calibration (PoCa)
+  * _lexrank:_ the generated summaries from LexRank model
+  * _copycat:_ the generated summaries from CopyCat model
+  * _bimeanave_avg:_ the generated summaries from BiMeanVAE-average model
+  * _bimeanave_coop:_ the generated summaries from BiMeanVAE-COOP model
+  * _qt:_ the generated summaries from QT model
+  * _semae:_ the generated summaries from SemAE model
+  * _hercules_abstractive:_ the generated summaries from Hercules abstractive summarization model
+  * _hercules_extractive:_ the generated summaries from Hercules extractive summarization model
+  * _gpt_35_turbo:_ the generated summaries from gpt-3.5-turbo model
+  * _gpt_4:_ the generated summaries from gpt-4 model
 
+* **generated_summary_NeuS:** the generated summaries on NeuS dataset
+  * _test_data:_ the test set, the model generated summaries are listed in the order of test_0, test_1, ..., test_306
+  * _base_summarizer_flan_t5_large:_ the generated summaries from our base summarizer
+  * _calibrated_summarizer_PoCa:_ the generated summaries from our calibrated summarizer after polarity calibration (PoCa)
+  * _lexrank:_ the generated summaries from LexRank model
+  * _bart_large:_ the generated summaries from BART-large baseline
+  * _pegasus_large:_ the generated summaries from Pegasus-large baseline
+  * _gpt_35_turbo:_ the generated summaries from gpt-3.5-turbo model
+  * _gpt_4:_ the generated summaries from gpt-4 model
 
 
 <br/>
 
 ## Code Description
 
+* **base_summarizer_AmaSum:** the code for training our base summarizer on AmaSum dataset
+* **base_summarizer_NeuS:** the code for training our base summarizer on NeuS dataset
+* **polarity_calibration_AmaSum:** the code for training our calibrated summarizer (PoCa) on AmaSum dataset
+* **polarity_calibration_NeuS:** the code for training our calibrated summarizer (PoCa) on NeuS dataset
 
 
 <br/>
