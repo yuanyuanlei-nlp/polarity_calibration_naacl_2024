@@ -3,7 +3,7 @@
 **Paper:** Polarity Calibration for Opinion Summarization<br/>
 **Accepted:** The 2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2024)<br/>
 **Authors:** Yuanyuan Lei, Kaiqiang Song, Sangwoo Cho, Xiaoyang Wang, Ruihong Huang, Dong Yu<br/>
-**Paper Link:** paper link coming soon
+**Paper Link:** https://arxiv.org/abs/2404.01706
 
 
 <br/>
@@ -78,7 +78,14 @@ Yuanyuan Lei, Kaiqiang Song, Sangwoo Cho, Xiaoyang Wang, Ruihong Huang, and Dong
 
 
 ```bibtex
-
+@misc{lei2024polarity,
+      title={Polarity Calibration for Opinion Summarization}, 
+      author={Yuanyuan Lei and Kaiqiang Song and Sangwoo Cho and Xiaoyang Wang and Ruihong Huang and Dong Yu},
+      year={2024},
+      eprint={2404.01706},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 
 ```
 
