@@ -3,7 +3,7 @@
 **Paper:** Polarity Calibration for Opinion Summarization<br/>
 **Accepted:** The 2024 Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2024)<br/>
 **Authors:** Yuanyuan Lei, Kaiqiang Song, Sangwoo Cho, Xiaoyang Wang, Ruihong Huang, Dong Yu<br/>
-**Paper Link:** https://arxiv.org/abs/2404.01706
+**Paper Link:** https://aclanthology.org/2024.naacl-long.291/
 
 
 <br/>
@@ -78,13 +78,25 @@ Yuanyuan Lei, Kaiqiang Song, Sangwoo Cho, Xiaoyang Wang, Ruihong Huang, and Dong
 
 
 ```bibtex
-@misc{lei2024polarity,
-      title={Polarity Calibration for Opinion Summarization}, 
-      author={Yuanyuan Lei and Kaiqiang Song and Sangwoo Cho and Xiaoyang Wang and Ruihong Huang and Dong Yu},
-      year={2024},
-      eprint={2404.01706},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{lei-etal-2024-polarity,
+    title = "Polarity Calibration for Opinion Summarization",
+    author = "Lei, Yuanyuan  and
+      Song, Kaiqiang  and
+      Cho, Sangwoo  and
+      Wang, Xiaoyang  and
+      Huang, Ruihong  and
+      Yu, Dong",
+    editor = "Duh, Kevin  and
+      Gomez, Helena  and
+      Bethard, Steven",
+    booktitle = "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.naacl-long.291",
+    pages = "5211--5224",
+    abstract = "Opinion summarization is automatically generating summaries from a variety of subjective information, such as product reviews or political opinions. The challenge of opinions summarization lies in presenting divergent or even conflicting opinions. We conduct an analysis of previous summarization models, which reveals their inclination to amplify the polarity bias, emphasizing the majority opinions while ignoring the minority opinions. To address this issue and make the summarizer express both sides of opinions, we introduce the concept of polarity calibration, which aims to align the polarity of output summary with that of input text. Specifically, we develop a reinforcement training approach for polarity calibration. This approach feeds the polarity distance between output summary and input text as reward into the summarizer, and also balance polarity calibration with content preservation and language naturality. We evaluate our Polarity Calibration model (PoCa) on two types of opinions summarization tasks: summarizing product reviews and political opinions articles. Automatic and human evaluation demonstrate that our approach can mitigate the polarity mismatch between output summary and input text, as well as maintain the content semantic and language quality.",
 }
 
 ```
